@@ -1,4 +1,2 @@
-echo "*.txt" > .gitignore
-
-echo "Excluded/" >> .gitignore
-
+*.txt
+Excluded/
