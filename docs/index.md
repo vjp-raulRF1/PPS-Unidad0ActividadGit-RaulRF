@@ -1,17 +1,32 @@
-# Calculadora Python
+# CalculadoraPython
 
-Bienvenido a la documentación de la Calculadora Python.
+Bienvenido a la calculadora gráfica hecha en Python.
 
-## Descripción
+## Ejecución
 
-Esta calculadora tiene una interfaz gráfica usando Tkinter.
+Para ejecutarlo tenemos que situarnos dentro de la carpeta del proyecto y ejecutar en el terminal de comandos python3 con el nombre del archivo.py
 
-## Uso
+```bash
+cd CalculadoraPython
+python3 src/Calculadora.py
+```
+Si se nos muestra un error `ModuleNotFoundError: No module named 'tkinter'`, tenemos que instalar el paquete `python-tk`
 
-Ejecuta el script `calculator/gui.py` para iniciar la calculadora.
+```bash
+# Para Python 3
+sudo apt update
+sudo apt install python3-tk
+```
+## Características
 
-## Requisitos
+- Interfaz gráfica con Tkinter 
+- Operaciones básicas (+, -, *, /) 
+- Documentación generada con MkDocs 
 
-- Python 3.x
-- Tkinter
-[![Licencia: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+## Problemas
+
+Si tienes algún problema [pincha aquí](#) o hsfjñisodi 
+
+---
+
+Documentation built with [MkDocs](https://www.mkdocs.org).
